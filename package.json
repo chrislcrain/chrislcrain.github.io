@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://chriscra.in",
+  "homepage": "https://www.chriscra.in",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
