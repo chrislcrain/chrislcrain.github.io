@@ -67,6 +67,21 @@ export default function Home() {
           />
           Resume
         </a>
+        <a
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="mailto:chrislcrain@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="/email.svg"
+            alt="Email icon"
+            width={19}
+            height={19}
+          />
+          Contact
+        </a>
       </footer>
     </div>
   );
