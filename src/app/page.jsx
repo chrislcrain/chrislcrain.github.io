@@ -7,14 +7,14 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center">
         <motion.img
-          className="dark:invert max-w-full h-auto"
-          src="/crane.png"
-          alt="Stock crane logo"
+          className="max-w-full h-auto mix-blend-screen"
+          src="/crane-flight.png"
+          alt="Geometric crane in flight logo"
           width={500}
-          height={48}
+          height={333}
           initial={{ opacity: 0 }} // Start invisible
           animate={{ opacity: 1 }} // Fade to fully visible
-          transition={{ duration: 10.5 }} // Smooth fade-in over 1.5s
+          transition={{ duration: 1.5 }} // Smooth fade-in over 1.5s
         />
         <Typewriter />
 
